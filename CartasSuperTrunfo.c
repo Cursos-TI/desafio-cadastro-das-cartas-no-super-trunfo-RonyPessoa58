@@ -6,7 +6,17 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
+int main(){
+    char nome[20] = "Brasil";
+    int população = 210000000
+    float área = 56147258
+    int pontos turísticos = 350
+
+    printf("O País %s é: %d\n", nome);
+    printf("A população é %.2f\n" , população);
+    printf("A área é %.2f\n , área");
+    printf("Os pontos turísticos são %.2f\n , pontos turísticos");
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
